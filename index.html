@@ -105,7 +105,7 @@ section.block{padding-top:112px;padding-bottom:112px;display:flex;flex-direction
 /* about */
 .about{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:40px;padding-top:112px;padding-bottom:112px}
 .about-side{grid-column:span 4;display:flex;flex-direction:column;gap:20px}
-.about-side img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;border-radius:6px;background:#E4DED2}
+.about-side img{width:100%;max-width:340px;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border-radius:6px;background:#E4DED2}
 .about-name{font-family:var(--display);font-weight:700;font-size:34px;line-height:1.1}
 .about-cred{font-family:var(--mono);font-size:13px;letter-spacing:.1em;color:var(--muted)}
 .about-main{grid-column:span 8;display:flex;flex-direction:column;gap:28px}
@@ -164,7 +164,7 @@ footer .logo-sub{color:var(--muted-dark)}
   .stat strong{font-size:52px}
   .about{grid-template-columns:minmax(0,1fr)}
   .about-side,.about-main{grid-column:auto}
-  .about-side img{max-width:360px}
+  .about-side img{max-width:280px}
   .about-main .h2{font-size:40px}
   .timeline{grid-template-columns:repeat(2,minmax(0,1fr))}
   .cta{flex-direction:column;align-items:flex-start;padding-top:72px;padding-bottom:72px}
@@ -309,7 +309,7 @@ footer .logo-sub{color:var(--muted-dark)}
 
 <section class="about wrap" id="about" aria-labelledby="about-title">
   <div class="about-side">
-    <img src="flow-collingwood.jpg" alt="Flow Collingwood" width="795" height="993" loading="lazy">
+    <img src="flow-collingwood.jpg" alt="Flow Collingwood" width="800" height="1000" loading="lazy">
     <div class="stack" style="gap:4px">
       <span class="about-name">Flow Collingwood</span>
       <span class="about-cred">LLB MSc MBA FRSA · FOUNDER</span>
